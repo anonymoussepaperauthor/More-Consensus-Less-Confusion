@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 17.62, 9, 0, 83
+ezr, 6.74, 0, 1, 23
+causal, 8.01, 1, 1, 9
+
+Saved: results/9/Life_Expectancy_Data.csv

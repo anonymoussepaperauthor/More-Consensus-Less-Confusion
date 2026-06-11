@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 2.37, 25, 1, 23
+ezr, 2.52, 3, 1, 55
+causal, 2.19, 43, 1, 57
+
+Saved: results/9/PostgreSQL.csv

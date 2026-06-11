@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 24.72, 0, 0, 96
+ezr, 10.59, 0, 1, 11
+causal, 11.41, 0, 1, 4
+
+Saved: results/9/xomo_flight.csv

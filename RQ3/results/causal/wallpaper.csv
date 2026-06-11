@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 36.01, 48, 0, 64
+ezr, 31.00, 18, 0, 17
+causal, 15.68, 34, 1, 47
+
+Saved: results/9/wallpaper.csv

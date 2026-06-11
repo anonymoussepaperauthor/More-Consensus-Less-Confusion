@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 2.92, 18, 0, 18
+ezr, 1.64, 0, 1, 24
+causal, 0.97, 51, 1, 81
+
+Saved: results/9/X264_AllMeasurements.csv

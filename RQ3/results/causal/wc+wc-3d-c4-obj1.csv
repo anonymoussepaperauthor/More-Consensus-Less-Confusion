@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 1.18, 32, 0, 39
+ezr, 0.55, 41, 1, 64
+causal, 1.16, 9, 0, 13
+
+Saved: results/9/wc+wc-3d-c4-obj1.csv

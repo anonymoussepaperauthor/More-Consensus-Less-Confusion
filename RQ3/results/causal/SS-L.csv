@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 6.58, 4, 0, 0
+ezr, 1.43, 89, 1, 90
+causal, 1.02, 69, 1, 71
+
+Saved: results/9/SS-L.csv

@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 22.62, 0, 0, 10
+ezr, 16.50, 0, 1, 38
+causal, 13.55, 0, 1, 72
+
+Saved: results/9/coc1000.csv

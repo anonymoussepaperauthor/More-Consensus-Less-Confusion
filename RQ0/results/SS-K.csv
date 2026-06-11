@@ -1,0 +1,4 @@
+Dataset, SS-K
+Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
+initial_Aggrement, 0, 0, 0, 0, 1, 14, 24, 38, 48
+refined_Aggrement, 0, 14, 20, 30, 41, 51, 63, 72, 80

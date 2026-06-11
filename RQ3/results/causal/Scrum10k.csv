@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 29.44, 0, 0, 41
+ezr, 21.70, 0, 1, 60
+causal, 19.30, 0, 1, 21
+
+Saved: results/9/Scrum10k.csv

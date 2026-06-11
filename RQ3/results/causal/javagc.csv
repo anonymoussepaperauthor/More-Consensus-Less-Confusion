@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 5.63, 36, 0, 100
+ezr, 4.61, 0, 1, 1
+causal, 4.83, 0, 1, 4
+
+Saved: results/9/javagc.csv

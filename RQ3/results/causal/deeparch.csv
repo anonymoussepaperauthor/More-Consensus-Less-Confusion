@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 5.22, 4, 1, 19
+ezr, 5.01, 2, 1, 42
+causal, 0.74, 8, 1, 65
+
+Saved: results/9/deeparch.csv

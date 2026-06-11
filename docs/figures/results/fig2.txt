@@ -1,0 +1,147 @@
+Init
+if TIME <= 4
+|  if PCON > 3;
+|  if PCON <= 3
+|  |  if ARCH <= 3
+|  |  |  if LTEx > 2;
+|  |  |  if LTEx <= 2;
+|  |  if ARCH > 3;
+if TIME > 4
+|  if SCED > 3;
+|  if SCED <= 3
+|  |  if PMAT > 3;
+|  |  if PMAT <= 3;
+---
+if CPLx <= 4              
+|  if PREC <= 5         
+|  |  if FLEx > 5;       
+|  |  if FLEx <= 5        
+|  |  |  if PCON <= 2     
+|  |  |  |  if SITE > 2;  
+|  |  |  |  if SITE <= 2;
+|  |  |  if PCON > 2;     
+|  if PREC > 5;           
+if CPLx > 4                
+|  if PMAT <= 1;           
+|  if PMAT > 1;              
+---
+if PCAP > 1                        
+|  if DOCU <= 2                    
+|  |  if STOR > 5;                   
+|  |  if STOR <= 5                   
+|  |  |  if DOCU > 1                   
+|  |  |  |  if PREC > 3;  
+|  |  |  |  if PREC <= 3;
+|  |  |  if DOCU <= 1;    
+|  if DOCU > 2                   
+|  |  if SITE <= 3                   
+|  |  |  if TEAM > 3;                   
+|  |  |  if TEAM <= 3;                   
+|  |  if SITE > 3;                   
+if PCAP <= 1;                   
+---
+if DATA > 3                   
+|  if RUSE <= 3;                   
+|  if RUSE > 3;                   
+if DATA <= 3                   
+|  if PCON > 1                   
+|  |  if DATA > 2;                   
+|  |  if DATA <= 2                   
+|  |  |  if DOCU > 4;                   
+|  |  |  if DOCU <= 4                   
+|  |  |  |  if TIME > 4;                   
+|  |  |  |  if TIME <= 4;                   
+|  if PCON <= 1;                   
+
+------------------------------------------------------------------------
+Rfn
+if SCED > 1                  
+|  if PREC > 3                  
+|  |  if TIME <= 5                  
+|  |  |  if SITE <= 1                  
+|  |  |  |  if FLEx > 2;                  
+|  |  |  |  if FLEx <= 2;                  
+|  |  |  if SITE > 1                  
+|  |  |  |  if DOCU > 3                  
+|  |  |  |  |  if PCAP > 2;                  
+|  |  |  |  |  if PCAP <= 2;                  
+|  |  |  |  if DOCU <= 3                  
+|  |  |  |  |  if TEAM > 2;                  
+|  |  |  |  |  if TEAM <= 2;                  
+|  |  if TIME > 5;                  
+|  if PREC <= 3                  
+|  |  if TEAM > 3;                  
+|  |  if TEAM <= 3                  
+|  |  |  if PCON <= 3;                  
+|  |  |  if PCON > 3;                  
+if SCED <= 1;                  
+---
+
+if CPLx <= 5                 
+|  if PCON <= 2                 
+|  |  if RUSE <= 4                 
+|  |  |  if TIME <= 4;                 
+|  |  |  if TIME > 4                 
+|  |  |  |  if DOCU <= 3;                 
+|  |  |  |  if DOCU > 3;                 
+|  |  if RUSE > 4                 
+|  |  |  if SCED > 2;                 
+|  |  |  if SCED <= 2;                 
+|  if PCON > 2                 
+|  |  if PCAP > 3                 
+|  |  |  if TOOL <= 3;                 
+|  |  |  if TOOL > 3;                 
+|  |  if PCAP <= 3                 
+|  |  |  if DOCU <= 3;                 
+|  |  |  if DOCU > 3                 
+|  |  |  |  if RUSE <= 4;                 
+|  |  |  |  if RUSE > 4;                 
+if CPLx > 5;                 
+---
+
+if TOOL <= 4                
+|  if TOOL > 2                
+|  |  if FLEx > 2                
+|  |  |  if PMAT <= 2;                
+|  |  |  if PMAT > 2                
+|  |  |  |  if CPLx <= 4                
+|  |  |  |  |  if STOR > 4;                
+|  |  |  |  |  if STOR <= 4;                
+|  |  |  |  if CPLx > 4;                
+|  |  if FLEx <= 2                
+|  |  |  if SCED > 3;                
+|  |  |  if SCED <= 3;                
+|  if TOOL <= 2                
+|  |  if PCON > 4;                
+|  |  if PCON <= 4                
+|  |  |  if STOR > 4;                
+|  |  |  if STOR <= 4;                
+if TOOL > 4                  
+|  if TEAM <= 3                
+|  |  if PVOL <= 3;                
+|  |  if PVOL > 3;                
+|  if TEAM > 3;                
+---
+
+if PREC > 5               
+|  if DATA <= 3;               
+|  if DATA > 3;               
+if PREC <= 5               
+|  if LTEx > 4               
+|  |  if ARCH <= 2;               
+|  |  if ARCH > 2               
+|  |  |  if FLEx <= 2;               
+|  |  |  if FLEx > 2               
+|  |  |  |  if TIME <= 4;               
+|  |  |  |  if TIME > 4;               
+|  if LTEx <= 4               
+|  |  if PCAP > 3               
+|  |  |  if TIME <= 4               
+|  |  |  |  if PCAP <= 4;               
+|  |  |  |  if PCAP > 4;               
+|  |  |  if TIME > 4;               
+|  |  if PCAP <= 3               
+|  |  |  if TEAM > 4;               
+|  |  |  if TEAM <= 4               
+|  |  |  |  if CPLx > 3;               
+|  |  |  |  if CPLx <= 3;               

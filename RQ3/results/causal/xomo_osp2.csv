@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 26.02, 0, 0, 70
+ezr, 12.70, 0, 1, 6
+causal, 13.54, 0, 1, 37
+
+Saved: results/9/xomo_osp2.csv

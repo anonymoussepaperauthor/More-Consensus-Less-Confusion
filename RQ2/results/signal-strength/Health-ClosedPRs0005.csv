@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+10, 43.21, 0, 1, 64
+20, 52.08, 0, 1, 79
+50, 29.07, 1, 1, 58
+100, 0.00, 0, 1, 83
+200, 0.00, 0, 1, 81

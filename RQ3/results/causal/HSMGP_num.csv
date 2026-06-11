@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 3.74, 78, 0, 83
+ezr, 1.50, 6, 1, 16
+causal, 1.20, 51, 1, 17
+
+Saved: results/9/HSMGP_num.csv

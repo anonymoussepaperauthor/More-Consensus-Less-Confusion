@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 32.12, 2, 0, 91
+ezr, 16.69, 0, 1, 0
+causal, 22.29, 0, 0, 17
+
+Saved: results/9/Wine_quality.csv

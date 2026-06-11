@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 0.00, 41, 1, 41
+ezr, 0.00, 100, 1, 100
+causal, 0.00, 21, 1, 8
+
+Saved: results/9/student_dropout.csv

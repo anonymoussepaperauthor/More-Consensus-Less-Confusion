@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 4.85, 7, 0, 59
+ezr, 3.87, 31, 1, 41
+causal, 3.98, 13, 1, 13
+
+Saved: results/9/sol-6d-c2-obj1.csv

@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 35.93, 28, 0, 69
+ezr, 0.00, 5, 1, 29
+causal, 20.46, 5, 1, 20
+
+Saved: results/9/Car_price_cleaned.csv

@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 11.24, 92, 1, 94
+ezr, 0.00, 20, 1, 5
+causal, 0.00, 13, 1, 6
+
+Saved: results/9/socks.csv

@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 59.55, 55, 0, 95
+ezr, 48.15, 0, 1, 2
+causal, 51.52, 0, 1, 9
+
+Saved: results/9/Health-ClosedPRs0009.csv

@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 52.03, 4, 1, 70
+ezr, 42.54, 0, 1, 40
+causal, 44.61, 0, 1, 5
+
+Saved: results/9/A2C_CartPole.csv

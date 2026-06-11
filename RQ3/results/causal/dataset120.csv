@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 0.00, 14, 1, 23
+ezr, 0.00, 18, 1, 58
+causal, 0.00, 12, 1, 55
+
+Saved: results/9/dataset120.csv

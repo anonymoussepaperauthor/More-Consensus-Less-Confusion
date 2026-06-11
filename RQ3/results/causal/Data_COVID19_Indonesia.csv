@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 41.29, 33, 0, 32
+ezr, 14.94, 43, 1, 76
+causal, 18.69, 35, 1, 30
+
+Saved: results/9/Data_COVID19_Indonesia.csv

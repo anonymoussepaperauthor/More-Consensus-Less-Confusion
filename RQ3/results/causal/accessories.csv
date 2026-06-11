@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 72.60, 85, 1, 99
+ezr, 86.78, 0, 0, 1
+causal, 86.78, 0, 0, 0
+
+Saved: results/9/accessories.csv

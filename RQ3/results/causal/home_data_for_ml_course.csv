@@ -1,0 +1,6 @@
+trt, performance_error, stability_agreement, best_performance, best_stability
+random, 50.00, 15, 0, 99
+ezr, 38.50, 0, 1, 3
+causal, 34.13, 0, 1, 1
+
+Saved: results/9/home_data_for_ml_course.csv

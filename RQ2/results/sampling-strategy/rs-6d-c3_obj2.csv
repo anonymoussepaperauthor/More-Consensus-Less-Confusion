@@ -1,0 +1,7 @@
+trt, performance_error, stability_aggreement, best_performance, best_stability
+near, 0.84, 40, 1, 24
+xploit, 0.84, 23, 1, 18
+xplor, 0.89, 52, 1, 69
+adapt, 0.89, 32, 1, 34
+bore, 0.89, 17, 1, 15
+random, 0.89, 32, 1, 34

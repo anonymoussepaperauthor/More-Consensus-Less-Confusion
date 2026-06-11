@@ -1,0 +1,4 @@
+Dataset, storm
+Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
+initial_Aggrement, 0, 1, 8, 22, 28, 36, 42, 48, 81
+refined_Aggrement, 0, 5, 19, 26, 26, 34, 34, 52, 94
