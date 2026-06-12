@@ -1,4 +1,4 @@
-# More Consensus, Less Confusion: Automatically Mitigating Unstable Recommendations
+# More Consensus, Less Confusion: Cheap Fixes for Unstable Recommendation in SE Analytics
 
 > **Anonymous submission for ICSE 2027** — Author information withheld for double-blind review.
 
