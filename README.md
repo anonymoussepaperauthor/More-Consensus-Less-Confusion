@@ -135,7 +135,7 @@ Datasets range from **82 to 166,975 rows** and **3 to 1,044 decision variables**
 
 📁 Code: [`RQ0/code/`](RQ0/code/)  
 📊 Results: [`RQ0/results/`](RQ0/results/)  
-🔁 [Reproduce](#reproducing-results)
+🔁 [How to run the code?](#reproducing-results)
 
 ---
 
@@ -145,7 +145,7 @@ Datasets range from **82 to 166,975 rows** and **3 to 1,044 decision variables**
 
 📁 Code: [`RQ1/code/`](RQ1/code/)  
 📊 Results: [`RQ1/results/`](RQ1/results/)  
-🔁 [Reproduce](#reproducing-results)
+🔁 [How to run the code?](#reproducing-results)
 
 ---
 
@@ -162,7 +162,7 @@ Datasets range from **82 to 166,975 rows** and **3 to 1,044 decision variables**
 
 📁 Code: [`RQ2/code/`](RQ2/code/)  
 📊 Results: [`RQ2/results/`](RQ2/results/)  
-🔁 [Reproduce](#reproducing-results)
+🔁 [How to run the code?](#reproducing-results)
 
 ---
 
@@ -172,7 +172,7 @@ Datasets range from **82 to 166,975 rows** and **3 to 1,044 decision variables**
 
 📁 Code: [`RQ3/code/`](RQ3/code/)  
 📊 Results: [`RQ3/results/`](RQ3/results/)  
-🔁 [Reproduce](#reproducing-results)
+🔁 [How to run the code?](#reproducing-results)
 
 ---
 
