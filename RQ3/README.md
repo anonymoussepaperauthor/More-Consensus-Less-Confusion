@@ -1,8 +1,8 @@
-# RQ3 — The Limits: How Reducible Is Performance Instability?
+# RQ3 — The Limits:
 
 ## Research Question
 
-> To what extent is performance instability reducible, and when might remaining instability reflect limits imposed by the data itself? What does incorporating causal reasoning reveal about this limit?
+> Is the instability remaining after RQ2 the fault of the learner, or of the data?
 
 ## Two Sub-Experiments
 
@@ -22,11 +22,11 @@ We compare EZR against three clustering methods generally considered more stable
 
 ### Causal Pipeline vs. EZR (Refined)
 
-| Metric | EZR (refined) | EZR + Causal |
+| Metric | EZR (refined) | Causal Pipeline |
 |---|---|---|
-| Performance wins (datasets) | **125** | 122 |
-| Stability wins (datasets) | **36** | 22 |
-| Total agreements (/ 12,700) | 1,668 | **2,108** |
+| Performance wins (datasets) | **124** | 122 |
+| Stability wins (datasets) | **64** | 63 |
+| Total agreements (/ 12,700) | 1,479 | **2,013** |
 
 Causal integration **does not harm performance** (statistically indistinguishable). Stability gains are **conditional**, not universal — most useful when instability is driven by confounded feature choices. When instability is driven by label noise, limited samples, or large Rashomon sets, causal filtering has fewer opportunities to help.
 
