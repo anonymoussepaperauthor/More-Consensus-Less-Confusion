@@ -1,8 +1,8 @@
-# RQ2 — The Fixes: What Configuration Changes Reduce Performance Instability?
+# RQ2 — The Fixes:
 
 ## Research Question
 
-> Which factors drive performance instability in SE optimization, and what configuration changes can reduce it without sacrificing optimization quality?
+> Which factors drive performance instability, and what configuration changes reduce it without sacrificing optimization quality?
 
 ## Factors Investigated
 
