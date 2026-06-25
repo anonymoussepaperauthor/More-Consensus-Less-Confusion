@@ -68,12 +68,11 @@ This repository contains all code, data, and results for a large-scale empirical
 ├── RQ2/                                 # All codes and results related to RQ2 experiments
 │   ├── README.md
 │   ├── code/
-│   │   ├── all-together.py              # Wrap up experiment (Fig. 8 in manuscript)
-│   │   ├── signal-strength.py           # Signal Strength experiment  (Fig. 7, Top-Left)
-│   │   ├── sampling-strategy.py         # Sampling Strategy experiment(Fig. 7, Top-Right)
-│   │   ├── model-complexity.py          # Model Complexity experiment (Fig. 7, Bottom-Left)
-│   │   ├── math-instability.py          # Math instability experiment (Fig. 7, Bottom-Right)
-│   │   └── plot_results.py              # For generating Fig. 8
+│   │   ├── all-together.py              # Wrap up experiment (Fig. 1 and Fig. 9 in manuscript)
+│   │   ├── signal-strength.py           # Signal Strength experiment  (Fig. 8, Top-Left)
+│   │   ├── sampling-strategy.py         # Sampling Strategy experiment(Fig. 8, Top-Right)
+│   │   ├── model-complexity.py          # Model Complexity experiment (Fig. 8, Bottom-Left)
+│   │   ├── math-instability.py          # Math instability experiment (Fig. 8, Bottom-Right)
 │   └── results/
 │       ├── all-together/       
 │       ├── signal-strength/         
