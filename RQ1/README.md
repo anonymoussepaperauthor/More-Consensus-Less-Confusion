@@ -1,27 +1,42 @@
-# RQ1 — The Nature: Are Structural and Performance Instability the Same Phenomenon?
+# RQ1 — The Nature:
 
 ## Research Question
 
-> How prevalent is structural instability, and do structural and performance instability represent the same underlying phenomenon?
+> How prevalent is structural instability, and is it the same as performance instability?
 
 ## Method
 
 We train **20 trees per dataset** under both the initial and refined EZR configurations and compute the **weighted Jaccard similarity** between the feature sets used by each pair of trees:
 
-```
-J(A, B) = |A ∩ B| / |A ∪ B|
-```
 
-where A and B are the sets of features used in any split of two trees trained under identical settings. A score of 0 means the trees share no features; 1 means they use exactly the same features.
+$$
+J_w(A,B)=
+\frac{\sum_{f\in F}\min\left(W_A(f),W_B(f)\right)}
+{\sum_{f\in F}\max\left(W_A(f),W_B(f)\right)},
+$$
 
-We compare the distribution of Jaccard scores across all 127 datasets under initial vs. refined settings and ask: does the refined configuration (which substantially improves *performance* stability) also improve *structural* similarity?
+where
+
+$$
+W_T(f)=\sum_{k\in S_f}\frac{1}{d_k}.
+$$
+
+
+Here:
+- $F$ is the union of all features appearing in either tree.
+- $W_T(f)$ is the weight assigned to feature $f$ in tree $T$.
+- $S_f$ is the set of nodes where feature $f$ appears.
+- $d_k$ is the depth of node $k$, so features appearing closer to the root receive higher weights.
+We compare weighted Jaccard scores across the 127 datasets under the initial and refined EZR configurations. Since the refined configuration substantially improves performance stability, we ask whether it also improves structural similarity.
+
+Performance stability is evaluated separately using the agreement metric described in RQ0, allowing us to compare changes in prediction agreement against changes in tree structure.
 
 ## Key Finding
 
 **No.** The refined configuration does not produce meaningfully higher structural similarity. The two curves (initial vs. refined) remain closely aligned across all 127 datasets, meaning:
 
 - The gains in recommendation consistency from RQ2 are **not** explained by trees becoming structurally more alike.
-- Structural instability is largely **irreducible** — a direct consequence of the Rashomon Effect, where many structurally different models perform nearly equivalently.
+- Structural instability is largely **irreducible**, reflecting the Rashomon Effect: many structurally different models achieve nearly identical performance.
 - **Structural and performance instability are distinct phenomena.** Reducing one does not reduce the other.
 
 ### Practical Implications
