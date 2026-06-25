@@ -1,4 +1,4 @@
-# More Consensus, Less Confusion: Cheap Fixes for Unstable Recommendation in SE Analytics
+# Is Model Instability just Noise to be Tolerated or a Property that can be Managed?
 
 > **Anonymous submission for ICSE 2027** — Author information withheld for double-blind review.
 
