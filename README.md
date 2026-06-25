@@ -168,7 +168,7 @@ Datasets range from **82 to 166,975 rows** and **3 to 1,044 decision variables**
 
 ### RQ3 — The Limits: How reducible is performance instability?
 
-> Performance instability has a **data-inherent floor**. Even clustering methods designed to be more stable than decision trees reach at most **~51% agreement** across the benchmark. Causal augmentation (confounder filtering + causal split criterion) matches EZR on optimization performance and achieves more total agreements (2,108 vs. 1,668), but with a narrower dataset-level advantage. The fix, if one exists, lies upstream: in **data collection, labeling quality, and measurement practices**.
+> Performance instability has a **data-inherent floor**. Even clustering methods designed to be more stable than decision trees reach at most **~51% agreement** across the benchmark. Causal augmentation (confounder filtering + causal split criterion) matches EZR on optimization performance and achieves more total agreements (2,013 vs. 1,479), but with a narrower dataset-level advantage. The fix, if one exists, lies upstream: in **data collection, labeling quality, and measurement practices**.
 
 📁 Code: [`RQ3/code/`](RQ3/code/)  
 📊 Results: [`RQ3/results/`](RQ3/results/)  
