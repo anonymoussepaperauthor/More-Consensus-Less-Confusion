@@ -1,8 +1,8 @@
-# RQ0 — The Problem: How Prevalent Is Performance Instability?
+# RQ0 — The Problem:
 
 ## Research Question
 
-> How prevalent is performance instability in SE optimization, and what are its practical consequences for practitioners?
+> How prevalent is performance instability in SE optimization, and what are its consequences for practitioners?
 
 ## Method
 
