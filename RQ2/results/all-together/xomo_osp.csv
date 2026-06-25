@@ -1,6 +1,6 @@
-b4-sd,38.83
-Init-sd,79.0
-Rfn-sd,63.2
-b4-md,-0.03
-Init-md,64.0
-Rfn-md,83.0
+Dataset, xomo_osp
+Init-quality, 34
+Rfn-quality, 16
+best-quality, rfn
+Init-stability, 16.15
+Rfn-stability, 8.69

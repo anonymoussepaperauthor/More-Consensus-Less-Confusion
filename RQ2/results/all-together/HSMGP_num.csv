@@ -1,6 +1,6 @@
-b4-sd,158.08
-Init-sd,211.1
-Rfn-sd,126.1
-b4-md,-0.34
-Init-md,96.0
-Rfn-md,98.0
+Dataset, HSMGP_num
+Init-quality, 3
+Rfn-quality, 2
+best-quality, rfn, init
+Init-stability, 4.25
+Rfn-stability, 3.70

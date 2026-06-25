@@ -1,6 +1,6 @@
-b4-sd,54.10
-Init-sd,57.2
-Rfn-sd,27.3
-b4-md,-0.21
-Init-md,100.0
-Rfn-md,100.0
+Dataset, socks
+Init-quality, 0
+Rfn-quality, 0
+best-quality, rfn, init
+Init-stability, 12.44
+Rfn-stability, 10.26

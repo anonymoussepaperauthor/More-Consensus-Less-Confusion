@@ -1,6 +1,6 @@
-b4-sd,12.79
-Init-sd,35.2
-Rfn-sd,10.8
-b4-md,-0.00
-Init-md,8.0
-Rfn-md,25.0
+Dataset, Health-ClosedIssues0009
+Init-quality, 79
+Rfn-quality, 67
+best-quality, rfn
+Init-stability, 21.54
+Rfn-stability, 22.51

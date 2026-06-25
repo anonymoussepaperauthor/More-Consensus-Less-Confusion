@@ -1,6 +1,6 @@
-b4-sd,134.26
-Init-sd,96.0
-Rfn-sd,59.7
-b4-md,-0.24
-Init-md,99.0
-Rfn-md,99.0
+Dataset, HSQLDB
+Init-quality, 2
+Rfn-quality, 0
+best-quality, rfn
+Init-stability, 6.02
+Rfn-stability, 0.69

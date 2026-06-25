@@ -1,6 +1,6 @@
-b4-sd,18.16
-Init-sd,41.8
-Rfn-sd,25.7
-b4-md,0.15
-Init-md,23.0
-Rfn-md,25.0
+Dataset, Health-Commits0003
+Init-quality, 76
+Rfn-quality, 49
+best-quality, rfn
+Init-stability, 17.78
+Rfn-stability, 21.64

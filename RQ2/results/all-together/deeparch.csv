@@ -1,6 +1,6 @@
-b4-sd,69.13
-Init-sd,75.0
-Rfn-sd,38.0
-b4-md,-0.13
-Init-md,75.0
-Rfn-md,99.0
+Dataset, deeparch
+Init-quality, 1
+Rfn-quality, 1
+best-quality, rfn
+Init-stability, 14.38
+Rfn-stability, 6.79

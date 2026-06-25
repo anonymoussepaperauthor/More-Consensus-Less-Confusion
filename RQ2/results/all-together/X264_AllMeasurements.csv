@@ -1,6 +1,6 @@
-b4-sd,74.29
-Init-sd,50.0
-Rfn-sd,37.5
-b4-md,-0.02
-Init-md,92.0
-Rfn-md,88.0
+Dataset, X264_AllMeasurements
+Init-quality, 8
+Rfn-quality, 8
+best-quality, init, rfn
+Init-stability, 6.20
+Rfn-stability, 20.76

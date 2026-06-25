@@ -7,7 +7,7 @@ from tools.causal_tools import causalTree, causalTreeLeaf
 import random
 import os
 
-TREATMENTS = ["random", "ezr", "causal"]
+TREATMENTS = ["ezr", "causal"]
 
 
 # =============================================================================
@@ -29,7 +29,6 @@ def run(file_directory, repeats=20):
     b4_wins = adds([win(k) for k in ys])
 
     the.Budget  = 50
-    the.Check   = 10
     the.Impurity= "gini"
     the.acq     = "near"
     the.leaf    = 3
@@ -42,8 +41,8 @@ def run(file_directory, repeats=20):
         mse    = 0
         errors = []
         for rand_seed in range(repeats):
-            random.seed(rand_seed * 10)
-            the.seed      = rand_seed * 10
+            random.seed(rand_seed)
+            the.seed      = rand_seed
             shuffled_rows = random.sample(all_data.rows, len(all_data.rows))
             half    = int(0.5 * len(all_data.rows))
             train   = clone(all_data, shuffled_rows[:half])
@@ -51,9 +50,7 @@ def run(file_directory, repeats=20):
             # All treatments use the same labeled rows from likely()
             labels  = random.sample(train.rows, min(the.Budget, len(train.rows))) if trt == "random" else likely(train)
 
-            if trt == "random":
-                top_rows = [(1,row) for row in holdout.rows[:the.Check] + labels]
-            elif trt == "ezr":
+            if trt == "ezr":
                 tree     = Tree(clone(train, labels))
                 top_rows = sorted(
                     [(treeLeaf(tree, row).mu, row) for row in holdout.rows],
@@ -87,7 +84,6 @@ def run(file_directory, repeats=20):
     # =========================================================
     # Part 2: Stability (single shared train/test split)
     # =========================================================
-    random.seed(42)
     all_data.rows = shuffle(all_data.rows)
     half       = len(all_data.rows) // 2
     train_rows = all_data.rows[:half]
@@ -98,11 +94,8 @@ def run(file_directory, repeats=20):
     train = clone(all_data, train_rows)
     test  = clone(all_data, test_rows)
 
-    # Use consistent disty normalization across all models (same ruler as win)
-    consistent_Y = lambda row: disty(all_data, row)
-
     # Build 20 models per treatment (shared labels across treatments)
-    random_models   = []
+    # random_models   = []
     ezr_models      = []
     causal_models   = []
 
@@ -112,22 +105,19 @@ def run(file_directory, repeats=20):
         labels  = likely(train)
         data_labels = clone(train, labels)
         # random
-        random_models.append(random.sample(train.rows, min(the.Budget, len(train.rows))))
+        # random_models.append(random.sample(train.rows, min(the.Budget, len(train.rows))))
         # ezr
-        ezr_models.append(Tree(data_labels, Y=consistent_Y))
+        ezr_models.append(Tree(data_labels))
         # causal_ezr
-        ctree, canon = causalTree(clone(train, labels), Y=consistent_Y)
+        ctree, canon = causalTree(clone(train, labels))
         causal_models.append((canon, ctree))
 
     stability_agreement = {}
     # Compute win-score predictions for every (treatment, model, test row)
-    all_win_scores = {"random":[], "ezr":[],"causal":[]}
+    all_win_scores = {"ezr":[],"causal":[]}
     for row in test.rows:
         for trt in TREATMENTS:
-            if trt == "random":
-                win_scores = [ win( disty(all_data, min(model, key=lambda c: distx(all_data, row, c))) )
-                    for model in random_models]
-            elif trt == "ezr":
+            if trt == "ezr":
                 win_scores = [win(treeLeaf(tree, row).mu)
                     for tree in ezr_models]
             elif trt == "causal":

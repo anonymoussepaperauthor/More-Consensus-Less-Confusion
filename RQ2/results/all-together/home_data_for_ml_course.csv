@@ -1,6 +1,6 @@
-b4-sd,13.77
-Init-sd,29.2
-Rfn-sd,15.0
-b4-md,0.04
-Init-md,24.0
-Rfn-md,26.0
+Dataset, home_data_for_ml_course
+Init-quality, 51
+Rfn-quality, 40
+best-quality, rfn
+Init-stability, 23.56
+Rfn-stability, 22.30

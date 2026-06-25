@@ -1,6 +1,3 @@
 trt, performance_error, stability_agreement, best_performance, best_stability
-random, 44.64, 0, 0, 52
-ezr, 29.76, 0, 1, 19
-causal, 31.84, 0, 1, 46
-
-Saved: results/9/pom3c.csv
+ezr, 28.80, 0, 1, 23
+causal, 29.31, 0, 1, 77

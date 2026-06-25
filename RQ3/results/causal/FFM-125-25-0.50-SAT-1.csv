@@ -1,6 +1,3 @@
 trt, performance_error, stability_agreement, best_performance, best_stability
-random, 22.86, 0, 0, 54
-ezr, 20.35, 0, 0, 23
-causal, 14.31, 0, 1, 33
-
-Saved: results/9/FFM-125-25-0.csv
+ezr, 19.85, 0, 1, 46
+causal, 18.41, 0, 1, 54

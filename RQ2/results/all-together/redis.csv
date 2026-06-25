@@ -1,6 +1,6 @@
-b4-sd,21.45
-Init-sd,39.3
-Rfn-sd,32.0
-b4-md,-0.02
-Init-md,20.0
-Rfn-md,21.0
+Dataset, redis
+Init-quality, 60
+Rfn-quality, 58
+best-quality, rfn, init
+Init-stability, 19.50
+Rfn-stability, 17.49

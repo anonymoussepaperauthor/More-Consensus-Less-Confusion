@@ -1,6 +1,6 @@
-b4-sd,72.16
-Init-sd,90.5
-Rfn-sd,47.3
-b4-md,-0.08
-Init-md,99.0
-Rfn-md,99.0
+Dataset, wc-6d-c1-obj1
+Init-quality, 1
+Rfn-quality, 1
+best-quality, rfn
+Init-stability, 7.34
+Rfn-stability, 8.35

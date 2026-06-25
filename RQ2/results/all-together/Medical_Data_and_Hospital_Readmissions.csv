@@ -1,6 +1,6 @@
-b4-sd,109.09
-Init-sd,97.7
-Rfn-sd,88.8
-b4-md,0.05
-Init-md,100.0
-Rfn-md,100.0
+Dataset, Medical_Data_and_Hospital_Readmissions
+Init-quality, 0
+Rfn-quality, 0
+best-quality, init, rfn
+Init-stability, 0.00
+Rfn-stability, 0.00

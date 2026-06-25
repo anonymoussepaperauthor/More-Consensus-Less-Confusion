@@ -1,6 +1,6 @@
-b4-sd,33.62
-Init-sd,32.9
-Rfn-sd,26.1
-b4-md,0.04
-Init-md,53.0
-Rfn-md,40.0
+Dataset, coc1000
+Init-quality, 58
+Rfn-quality, 34
+best-quality, rfn
+Init-stability, 20.51
+Rfn-stability, 21.56

@@ -1,6 +1,6 @@
-b4-sd,113.79
-Init-sd,69.8
-Rfn-sd,40.7
-b4-md,-0.17
-Init-md,97.0
-Rfn-md,99.0
+Dataset, SS-M
+Init-quality, 1
+Rfn-quality, 1
+best-quality, rfn
+Init-stability, 12.61
+Rfn-stability, 1.65

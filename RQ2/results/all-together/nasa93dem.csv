@@ -1,6 +1,6 @@
-b4-sd,33.34
-Init-sd,43.5
-Rfn-sd,4.0
-b4-md,0.14
-Init-md,57.0
-Rfn-md,30.0
+Dataset, nasa93dem
+Init-quality, 7
+Rfn-quality, 26
+best-quality, init
+Init-stability, 20.14
+Rfn-stability, 23.77

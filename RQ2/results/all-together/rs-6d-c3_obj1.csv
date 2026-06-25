@@ -1,6 +1,6 @@
-b4-sd,98.63
-Init-sd,89.0
-Rfn-sd,47.6
-b4-md,-0.17
-Init-md,99.0
-Rfn-md,99.0
+Dataset, rs-6d-c3_obj1
+Init-quality, 0
+Rfn-quality, 0
+best-quality, init, rfn
+Init-stability, 4.23
+Rfn-stability, 0.47

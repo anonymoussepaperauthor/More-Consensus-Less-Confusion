@@ -1,6 +1,6 @@
-b4-sd,35.05
-Init-sd,46.3
-Rfn-sd,35.5
-b4-md,-0.00
-Init-md,60.0
-Rfn-md,63.0
+Dataset, FM-500-100-0.25-SAT-1
+Init-quality, 37
+Rfn-quality, 34
+best-quality, init, rfn
+Init-stability, 15.37
+Rfn-stability, 15.23

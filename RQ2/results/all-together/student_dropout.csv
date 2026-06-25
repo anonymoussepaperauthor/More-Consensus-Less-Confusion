@@ -1,6 +1,6 @@
-b4-sd,42.63
-Init-sd,15.2
-Rfn-sd,0.0
-b4-md,0.18
-Init-md,100.0
-Rfn-md,100.0
+Dataset, student_dropout
+Init-quality, 0
+Rfn-quality, 0
+best-quality, init, rfn
+Init-stability, 36.32
+Rfn-stability, 26.39

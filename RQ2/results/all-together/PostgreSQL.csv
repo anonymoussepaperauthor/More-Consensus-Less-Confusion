@@ -1,6 +1,6 @@
-b4-sd,182.20
-Init-sd,149.9
-Rfn-sd,96.2
-b4-md,-0.37
-Init-md,90.0
-Rfn-md,92.0
+Dataset, PostgreSQL
+Init-quality, 8
+Rfn-quality, 7
+best-quality, init, rfn
+Init-stability, 2.90
+Rfn-stability, 3.56

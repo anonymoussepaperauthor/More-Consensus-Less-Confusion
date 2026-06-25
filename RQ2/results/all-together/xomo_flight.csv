@@ -1,6 +1,6 @@
-b4-sd,42.57
-Init-sd,78.2
-Rfn-sd,59.3
-b4-md,-0.05
-Init-md,73.0
-Rfn-md,83.0
+Dataset, xomo_flight
+Init-quality, 25
+Rfn-quality, 14
+best-quality, rfn
+Init-stability, 19.08
+Rfn-stability, 6.34

@@ -1,6 +1,6 @@
-b4-sd,38.02
-Init-sd,40.6
-Rfn-sd,31.3
-b4-md,0.01
-Init-md,46.0
-Rfn-md,53.0
+Dataset, A2C_Acrobot
+Init-quality, 32
+Rfn-quality, 25
+best-quality, init, rfn
+Init-stability, 18.57
+Rfn-stability, 19.10

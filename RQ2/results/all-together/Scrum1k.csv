@@ -1,6 +1,6 @@
-b4-sd,35.43
-Init-sd,42.5
-Rfn-sd,28.2
-b4-md,-0.03
-Init-md,65.0
-Rfn-md,65.0
+Dataset, Scrum1k
+Init-quality, 30
+Rfn-quality, 19
+best-quality, rfn
+Init-stability, 18.22
+Rfn-stability, 17.89

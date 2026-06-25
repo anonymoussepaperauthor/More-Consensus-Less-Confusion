@@ -1,6 +1,6 @@
-b4-sd,49.15
-Init-sd,62.2
-Rfn-sd,47.0
-b4-md,-0.01
-Init-md,66.0
-Rfn-md,61.0
+Dataset, pom3d
+Init-quality, 15
+Rfn-quality, 22
+best-quality, init
+Init-stability, 15.51
+Rfn-stability, 18.40
