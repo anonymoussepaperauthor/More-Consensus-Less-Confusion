@@ -25,8 +25,8 @@ We compare EZR against three clustering methods generally considered more stable
 | Metric | EZR (refined) | Causal Pipeline |
 |---|---|---|
 | Performance wins (datasets) | **124** | 122 |
-| Stability wins (datasets) | **64** | 63 |
-| Total agreements (/ 12,700) | 1,479 | **2,013** |
+| Stability wins (datasets) | 59 | **69** |
+| Total agreements (/ 12,700) | 1,740 | **2,390** |
 
 Causal integration **does not harm performance** (statistically indistinguishable). Stability gains are **conditional**, not universal — most useful when instability is driven by confounded feature choices. When instability is driven by label noise, limited samples, or large Rashomon sets, causal filtering has fewer opportunities to help.
 
