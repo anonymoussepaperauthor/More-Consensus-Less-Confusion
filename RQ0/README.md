@@ -20,12 +20,12 @@ Agreement is aggregated across all **127 datasets × 100 test cases = 12,700 tot
 
 | Configuration | Agreement count (/ 12,700) | Agreement rate |
 |---|---|---|
-| Initial (default EZR) | 189 | **1.49%** |
-| Refined (RQ2 settings) | 1,248 | **9.83%** |
+| Initial (default EZR) | 364 | **2.9%** |
+| Refined (RQ2 settings) | 1,740 | **13.7%** |
 
 Even at the most permissive threshold (σ = 1.0):
 
 | Configuration | Agreement count | Agreement rate |
 |---|---|---|
-| Initial | 3,088 | 24.3% |
-| Refined | 7,774 | 61.2% |
+| Initial | 4,020 | 31.7% |
+| Refined | 8,360 | 65.8% |
