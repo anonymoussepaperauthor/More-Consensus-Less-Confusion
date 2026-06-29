@@ -11,7 +11,7 @@ Software engineering optimizers increasingly guide practical decisions such as c
 This repository contains all code, data, and results for a large-scale empirical study of **recommendation instability** across **127 multi-objective SE optimization problems (12,700 test cases)**. We:
 
 - Distinguish **structural instability** (changes in the learned model) from **performance instability** (changes in the outcomes of recommended solutions)
-- Show that performance instability is the norm — under default settings, repeated runs agree on only **1.5%** of test cases
+- Show that performance instability is the norm — under default settings, repeated runs agree on only **2.9%** of test cases
 - Demonstrate that structural instability is unavoidable due to the **Rashomon Effect**
 - Identify interventions that improve performance stability by around 36% on average on all datasets.
 - Show that a data-inherent floor on stability exists, even for methods designed to be stable
@@ -46,7 +46,7 @@ This repository contains all code, data, and results for a large-scale empirical
 │   ├── ezr.py                           # Core module of experiments: EZR
 │   ├── stats.py                         # Statistical tests used in experiments
 │   ├── causal_tools.py                  # Causal interventions investigated in RQ3
-│   └── aggregate_results.py             # Summarize raw results for each experiments
+│   └── aggregate_results.py             # Summarize raw results for each experiment
 │
 ├── docs/figures/
 │   ├── Background/                      # Figures in Background section of manuscript
@@ -130,7 +130,7 @@ Datasets range from **82 to 166,975 rows** and **3 to 1,044 decision variables**
 
 ### RQ0 — The Problem: How prevalent is performance instability?
 
-> Under default EZR settings, 20 repeated runs agree on only **189 / 12,700 test cases (1.49%)**. With refined settings, this improves to **1,248 / 12,700 (9.83%)**. Even at the most permissive agreement threshold (σ = 1.0), agreement reaches only 24.3% and 61.2% respectively.
+> Under default EZR settings, 20 repeated runs agree on only **364 / 12,700 test cases (2.9%)**. With refined settings, this improves to **1,740 / 12,700 (13.7%)**. Even at the most permissive agreement threshold (σ = 1.0), agreement reaches only 31.7% and 65.8% respectively.
 
 📁 Code: [`RQ0/code/`](RQ0/code/)  
 📊 Results: [`RQ0/results/`](RQ0/results/)  
@@ -167,7 +167,7 @@ Datasets range from **82 to 166,975 rows** and **3 to 1,044 decision variables**
 
 ### RQ3 — The Limits: How reducible is performance instability?
 
-> Performance instability has a **data-inherent floor**. Even clustering methods designed to be more stable than decision trees reach at most **~51% agreement** across the benchmark. Causal augmentation (confounder filtering + causal split criterion) matches EZR on optimization performance and achieves more total agreements (2,013 vs. 1,479), but with a narrower dataset-level advantage. The fix, if one exists, lies upstream: in **data collection, labeling quality, and measurement practices**.
+> Performance instability has a **data-inherent floor**. Even clustering methods designed to be more stable than decision trees reach at most **~51% agreement** across the benchmark. Causal augmentation (confounder filtering + causal split criterion) matches EZR on optimization performance and achieves more total agreements (1,740 vs. 2,390), and a narrow dataset-level advantage. The broader fix, if one exists, lies upstream: in **data collection, labeling quality, and measurement practices**.
 
 📁 Code: [`RQ3/code/`](RQ3/code/)  
 📊 Results: [`RQ3/results/`](RQ3/results/)  
