@@ -13,18 +13,38 @@ b4      = adds(ys)
 win     = lambda v: int(100*(1 - (v - b4.lo)/(b4.mu - b4.lo)))
 b4_wins = adds([win(k) for k in ys])
 
-all_data.rows = shuffle(all_data.rows)
-tests_size = min(100, int(len(all_data.rows) * 0.3))
+# all_data.rows = shuffle(all_data.rows)
+tests_size = min(100, int(len(all_data.rows) * 0.5))
 test, train = clone(all_data, all_data.rows[:tests_size]), clone(all_data, all_data.rows[tests_size:])
-
 
 all_sigmas = [0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1]
 
 initial_aggreement = {s:0 for s in all_sigmas}
 refined_aggreement = {s:0 for s in all_sigmas}
 
-the.Budget  = 20
-the.acq     = "xploit"
+the.Budget  = 50
+the.acq     = "near"
+the.leaf     = 3
+the.Impurity = "gini"
+trees = []
+for rand_seed in range(repeats):
+    the.seed    = rand_seed
+    random.seed(the.seed)
+    labels = likely(train)
+    tree   = Tree(clone(train, labels))
+    trees.append(tree)
+
+
+for idx, row in enumerate(test.rows):
+    outputs = [win(treeLeaf(tree,row).mu) for tree in trees]
+    preds = adds( outputs )
+    for sigma in all_sigmas:
+        if preds.sd < sigma * b4_wins.sd:    refined_aggreement[sigma] += 1
+for i in refined_aggreement:
+    refined_aggreement[i] = refined_aggreement[i] * 100 // tests_size
+
+the.Budget   = 20
+the.acq      = "xploit"
 the.leaf     = 2
 the.Impurity = "entropy"
 trees = []
@@ -40,24 +60,8 @@ for idx, row in enumerate(test.rows):
     preds = adds( outputs )
     for sigma in all_sigmas:
         if preds.sd < sigma * b4_wins.sd:    initial_aggreement[sigma] += 1
-
-the.Budget  = 50
-the.acq     = "near"
-the.leaf     = 3
-the.Impurity = "gini"
-trees = []
-for rand_seed in range(repeats):
-    the.seed    = rand_seed
-    random.seed(the.seed)
-    labels = likely(train)
-    tree   = Tree(clone(train, labels))
-    trees.append(tree)
-
-for idx, row in enumerate(test.rows):
-    outputs = [win(treeLeaf(tree,row).mu) for tree in trees]
-    preds = adds( outputs )
-    for sigma in all_sigmas:
-        if preds.sd < sigma * b4_wins.sd:    refined_aggreement[sigma] += 1
+for i in initial_aggreement:
+    initial_aggreement[i] = initial_aggreement[i] * 100 // tests_size
 
 print(f"Dataset, {file_directory.split("/")[-1][:-4]}")
 print(f"Sigmas", end=", ")

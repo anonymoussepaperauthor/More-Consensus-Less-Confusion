@@ -1,4 +1,4 @@
 Dataset, dataset600
 Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
-initial_Aggrement, 0, 0, 0, 0, 2, 7, 20, 51, 91
-refined_Aggrement, 0, 4, 8, 12, 18, 33, 54, 71, 92
+initial_Aggrement, 0, 0, 0, 5, 13, 25, 54, 73, 98
+refined_Aggrement, 10, 10, 16, 20, 24, 29, 41, 84, 98

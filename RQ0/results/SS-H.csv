@@ -1,4 +1,4 @@
 Dataset, SS-H
 Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
-initial_Aggrement, 0, 14, 14, 16, 29, 45, 53, 56, 71
-refined_Aggrement, 27, 51, 70, 77, 77, 77, 77, 77, 77
+initial_Aggrement, 0, 1, 23, 38, 51, 67, 88, 88, 88
+refined_Aggrement, 12, 82, 82, 99, 100, 100, 100, 100, 100

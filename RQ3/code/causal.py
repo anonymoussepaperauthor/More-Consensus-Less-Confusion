@@ -84,15 +84,19 @@ def run(file_directory, repeats=20):
     # =========================================================
     # Part 2: Stability (single shared train/test split)
     # =========================================================
-    all_data.rows = shuffle(all_data.rows)
-    half       = len(all_data.rows) // 2
-    train_rows = all_data.rows[:half]
-    test_pool  = all_data.rows[half:]
-    tests_size = min(100, len(test_pool))
-    test_rows  = test_pool[:tests_size]
+    all_data = Data(csv(file_directory))
+    # all_data.rows = shuffle(all_data.rows)
+    # half       = len(all_data.rows) // 2
+    # train_rows = all_data.rows[:half]
+    # test_pool  = all_data.rows[half:]
+    # tests_size = min(100, len(test_pool))
+    # test_rows  = test_pool[:tests_size]
 
-    train = clone(all_data, train_rows)
-    test  = clone(all_data, test_rows)
+    tests_size = min(100, int(len(all_data.rows) * 0.5))
+    test, train = clone(all_data, all_data.rows[:tests_size]), clone(all_data, all_data.rows[tests_size:])
+
+    # train = clone(all_data, train_rows)
+    # test  = clone(all_data, test_rows)
 
     # Build 20 models per treatment (shared labels across treatments)
     # random_models   = []
@@ -132,7 +136,6 @@ def run(file_directory, repeats=20):
             if adds(win_scores).sd < 0.35 * b4_wins.sd:
                 agreement += 1
         stability_agreement[trt] = agreement * 100 // tests_size
-
     # top()-based stability: per row, which treatment is more stable?
     best_stability = {trt: 0 for trt in TREATMENTS}
     for row_idx in range(tests_size):

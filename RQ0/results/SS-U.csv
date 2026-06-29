@@ -1,4 +1,4 @@
 Dataset, SS-U
 Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
-initial_Aggrement, 0, 0, 0, 0, 0, 0, 0, 3, 9
-refined_Aggrement, 0, 0, 5, 28, 70, 100, 100, 100, 100
+initial_Aggrement, 0, 0, 0, 0, 0, 0, 9, 43, 100
+refined_Aggrement, 0, 0, 0, 100, 100, 100, 100, 100, 100

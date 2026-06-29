@@ -1,3 +1,3 @@
 trt, performance_error, stability_agreement, best_performance, best_stability
-ezr, 0.00, 5, 1, 17
-causal, 0.00, 38, 1, 83
+ezr, 0.00, 5, 1, 0
+causal, 0.00, 100, 1, 100

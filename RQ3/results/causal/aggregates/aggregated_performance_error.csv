@@ -87,7 +87,7 @@ Scrum100k,30.48,31.49
 Scrum10k,22.81,22.05
 Scrum1k,14.99,12.22
 WA_Fn-UseC_-HR-Employee-Attrition,13.02,15.04
-WA_Fn-UseC_-Telco-Customer-Churn,1.14,1.12
+WA_Fn-UseC_-Telco-Customer-Churn,1.12,1.12
 Wine_quality,17.37,21.62
 X264_AllMeasurements,1.22,1.2
 accessories,81.31,81.31
@@ -103,7 +103,7 @@ dress-up,70.63,66.51
 exastencils,13.27,11.34
 home_data_for_ml_course,34.22,34.05
 javagc,3.48,3.39
-nasa93dem,10.53,8.44
+nasa93dem,8.49,8.44
 player_statistics_cleaned_final,11.32,11.1
 pom3a,17.12,16.22
 pom3b,18.5,18.9
@@ -116,7 +116,7 @@ socks,0.0,0.0
 sol-6d-c2-obj1,4.84,4.78
 storm,0.87,0.71
 student_dropout,0.0,0.0
-wallpaper,31.16,24.07
+wallpaper,31.16,24.08
 wc+rs-3d-c4-obj1,0.81,1.2
 wc+sol-3d-c4-obj1,0.45,0.63
 wc+wc-3d-c4-obj1,0.87,1.2

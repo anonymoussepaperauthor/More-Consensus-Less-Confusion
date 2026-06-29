@@ -1,4 +1,4 @@
 Dataset, wc+rs-3d-c4-obj1
 Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
-initial_Aggrement, 0, 0, 0, 4, 5, 23, 25, 39, 45
-refined_Aggrement, 0, 0, 4, 8, 13, 28, 42, 47, 51
+initial_Aggrement, 0, 4, 24, 28, 32, 83, 95, 95, 100
+refined_Aggrement, 38, 83, 100, 100, 100, 100, 100, 100, 100

@@ -1,4 +1,4 @@
 Dataset, SQL_AllMeasurements
 Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
-initial_Aggrement, 0, 0, 0, 0, 0, 0, 1, 7, 26
-refined_Aggrement, 0, 0, 0, 5, 11, 29, 55, 86, 100
+initial_Aggrement, 0, 0, 0, 0, 0, 0, 0, 4, 21
+refined_Aggrement, 0, 0, 0, 13, 26, 35, 58, 82, 100

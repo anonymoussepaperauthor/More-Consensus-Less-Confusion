@@ -1,4 +1,4 @@
 Dataset, BDBC
 Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
-initial_Aggrement, 5, 11, 20, 34, 50, 56, 56, 59, 71
-refined_Aggrement, 56, 56, 56, 73, 85, 100, 100, 100, 100
+initial_Aggrement, 0, 2, 7, 30, 49, 50, 55, 67, 89
+refined_Aggrement, 49, 49, 49, 61, 74, 92, 100, 100, 100

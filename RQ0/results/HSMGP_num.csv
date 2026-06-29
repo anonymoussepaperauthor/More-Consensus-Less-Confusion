@@ -1,4 +1,4 @@
 Dataset, HSMGP_num
 Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
-initial_Aggrement, 0, 0, 0, 0, 0, 1, 8, 11, 12
-refined_Aggrement, 0, 15, 24, 27, 38, 51, 71, 89, 100
+initial_Aggrement, 0, 0, 0, 0, 0, 0, 18, 18, 18
+refined_Aggrement, 0, 15, 15, 15, 15, 50, 65, 77, 95

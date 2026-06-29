@@ -1,4 +1,4 @@
 Dataset, FFM-1000-200-0.50-SAT-1
 Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
-initial_Aggrement, 0, 0, 0, 0, 0, 0, 0, 1, 4
-refined_Aggrement, 0, 0, 0, 0, 0, 5, 17, 35, 76
+initial_Aggrement, 0, 0, 0, 0, 0, 2, 25, 67, 99
+refined_Aggrement, 0, 0, 0, 0, 0, 7, 69, 95, 100

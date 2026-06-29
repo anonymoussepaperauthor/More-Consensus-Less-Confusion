@@ -1,4 +1,4 @@
 Dataset, Health-ClosedPRs0008
 Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
-initial_Aggrement, 0, 0, 0, 0, 0, 0, 6, 9, 57
-refined_Aggrement, 0, 0, 0, 0, 0, 37, 72, 80, 88
+initial_Aggrement, 0, 0, 0, 0, 0, 0, 0, 11, 34
+refined_Aggrement, 0, 0, 0, 0, 11, 57, 70, 77, 80

@@ -1,4 +1,4 @@
 Dataset, Health-ClosedIssues0000
 Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
-initial_Aggrement, 0, 3, 6, 6, 27, 31, 58, 63, 71
-refined_Aggrement, 0, 37, 59, 60, 75, 93, 100, 100, 100
+initial_Aggrement, 0, 0, 0, 1, 3, 3, 3, 5, 10
+refined_Aggrement, 57, 63, 63, 72, 80, 93, 97, 100, 100

@@ -1,4 +1,4 @@
 Dataset, sol-6d-c2-obj1
 Sigmas, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1
-initial_Aggrement, 0, 0, 2, 4, 5, 5, 8, 13, 31
-refined_Aggrement, 1, 4, 11, 12, 13, 14, 28, 46, 81
+initial_Aggrement, 0, 0, 0, 0, 0, 0, 8, 16, 27
+refined_Aggrement, 12, 12, 22, 22, 22, 22, 26, 26, 60
